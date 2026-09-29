@@ -10,11 +10,11 @@ the same birthday.
 
 The program compares a Monte Carlo simulation with the exact probability:
 
-$$
+```math
 P(\text{shared birthday})
 =
-1 - \frac{365 \cdot 364 \cdots (365-n+1)}{365^n}
-$$
+1 - \frac{365 \cdot 364 \cdot \ldots \cdot (365-n+1)}{365^n}
+```
 
 For n = 23:
 
