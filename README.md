@@ -2,7 +2,7 @@
 
 Practicing probability while teaching myself to code in Python.
 
-##Experiments
+## Experiments
 
 ### 1. Birthday Problem
 Calculates the probability that at least two people in a group share
@@ -13,8 +13,7 @@ The program compares a Monte Carlo simulation with the exact probability:
 $$
 P(\text{shared birthday})
 =
-1-
-\frac{365\cdot364\cdots(365-n+1)}{365^n}
+1 - \frac{365 \cdot 364 \cdots (365-n+1)}{365^n}
 $$
 
 For n = 23:
